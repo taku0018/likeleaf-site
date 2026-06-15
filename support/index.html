@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LikeLeaf Diary サポート</title>
+  <meta name="description" content="LikeLeaf Diaryのサポートページです。">
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f8f1df;
+      --card: #fffaf0;
+      --ink: #2f3328;
+      --muted: #6e725e;
+      --leaf: #5f7f45;
+      --line: #e4d8bd;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: linear-gradient(135deg, #fff8e8 0%, var(--bg) 52%, #eee2c9 100%);
+      color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", Meiryo, sans-serif;
+      line-height: 1.78;
+    }
+    main {
+      width: min(880px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 48px 0;
+    }
+    .card {
+      background: rgba(255, 250, 240, 0.9);
+      border: 1px solid var(--line);
+      border-radius: 28px;
+      box-shadow: 0 20px 60px rgba(74, 58, 31, 0.12);
+      padding: clamp(26px, 5vw, 52px);
+    }
+    .eyebrow {
+      color: var(--leaf);
+      font-size: 13px;
+      font-weight: 800;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+    }
+    h1 {
+      margin: 10px 0 20px;
+      font-size: clamp(32px, 6vw, 52px);
+      line-height: 1.08;
+      letter-spacing: -0.04em;
+    }
+    h2 {
+      border-top: 1px solid var(--line);
+      font-size: 21px;
+      margin: 34px 0 12px;
+      padding-top: 24px;
+    }
+    p { margin: 0 0 16px; }
+    ul {
+      margin: 0 0 16px;
+      padding-left: 1.3em;
+    }
+    li { margin: 4px 0; }
+    a {
+      color: var(--leaf);
+      font-weight: 800;
+      text-decoration-thickness: 0.08em;
+      text-underline-offset: 0.18em;
+    }
+    .contact {
+      background: #eff5dc;
+      border: 1px solid #c6d2a4;
+      border-radius: 20px;
+      margin: 24px 0;
+      padding: 18px;
+    }
+    .muted {
+      color: var(--muted);
+      font-size: 14px;
+    }
+    footer {
+      color: var(--muted);
+      font-size: 13px;
+      margin-top: 22px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <article class="card">
+      <div class="eyebrow">Support</div>
+      <h1>LikeLeaf Diary サポート</h1>
+      <p>LikeLeaf Diary をご利用いただきありがとうございます。使い方に関するご質問、不具合のご連絡、改善のご要望は、以下の窓口までお問い合わせください。</p>
+
+      <div class="contact">
+        <p><strong>サポート窓口</strong></p>
+        <p><a href="mailto:likeleaf.dev@gmail.com">likeleaf.dev@gmail.com</a></p>
+      </div>
+
+      <h2>お問い合わせ時にあると助かる情報</h2>
+      <ul>
+        <li>利用端末名</li>
+        <li>iOS バージョン</li>
+        <li>アプリで操作していた画面</li>
+        <li>発生した内容</li>
+        <li>再現手順が分かる場合はその手順</li>
+      </ul>
+
+      <h2>よくある確認事項</h2>
+      <p>LikeLeaf Diary は、写真を選んで日付ごとの日記を作成するアプリです。写真へのアクセス許可が必要な場合は、iPhone の設定アプリから LikeLeaf Diary の写真アクセス設定をご確認ください。</p>
+      <p>現在のリリースでは、ログインなしで利用できます。アプリ内課金機能は提供していません。</p>
+
+      <h2>プライバシーポリシー</h2>
+      <p><a href="../privacy/">プライバシーポリシーはこちら</a>をご確認ください。</p>
+
+      <p class="muted">返信にはお時間をいただく場合があります。</p>
+    </article>
+    <footer>Copyright 2026 Takuya Maeda</footer>
+  </main>
+</body>
+</html>
